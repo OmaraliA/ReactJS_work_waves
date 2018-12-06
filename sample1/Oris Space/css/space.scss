@@ -1,0 +1,208 @@
+@import url("static/fonts/Montserrat/fonts/webfonts/Montserrat.css");
+
+body {
+    margin: auto;
+    
+
+    .main{
+        width: 100%;
+        height: 720px;
+        background-image: url("./img/main.png");
+        /* width: 100%;
+        height: auto;
+        background-image: url('/Users/YerassylD/Desktop/Portfolio Waves/Oris Space/img/main.png');*/
+        background-position-x: 1%;
+        background-repeat: no-repeat;
+        background-size: 100%; 
+    }
+
+    .article{
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 210px;
+        background: transparent;
+        color: white;
+    }
+    .article{
+        .oris{
+            text-align: center;
+            color: #fff;
+            border-radius: 5px;
+            padding: 80px;
+            font-size: 10vw;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            line-height: 0.66;
+            letter-spacing: 8%;
+        }
+    }
+
+    .wrapper2{
+        position: relative;
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        grid-template-rows: 320px;
+        grid-gap: 6%;
+        background-color: black;
+        color: black;
+    }
+
+    .wrapper2 {
+        .box{
+            background-color: black;
+            text-align: center;
+            color: #fff;
+            border-radius: 5px;
+            padding: 50px;
+            font-size: 150%;
+        }
+    }
+    .wrapper2{
+        #main_bottom_text{
+            position: relative;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 120px;
+            grid-row-gap: 0%;
+            background-color: black;
+            color: black;
+        }
+    }
+
+    .wrapper2{
+        #main_bottom_text{
+            .left-minibox:nth-child(1){
+                // ⚠ Gotham Pro
+                background-color: transparent;
+                text-align: left;
+                color: #fff;
+                border-radius: 5px;
+                padding-left: 25%;
+                font-size: 1.1vw;
+                width: 70%;
+            }
+            .left-minibox:nth-child(2){
+                // ⚠ Gotham Pro
+                background-color: transparent;
+                text-align: left;
+                color: #fff;
+                border-radius: 5px;
+                padding-left: 36%;
+                font-size: 1.1vw;
+                width: 59%;
+            }
+            
+        }
+    }
+
+    .wrapper2{
+        #main_bottom_right{
+            position: relative;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 120px;
+            grid-row-gap: 0%;
+            background-color: black;
+            color: black;
+        }
+    }
+
+    .wrapper2{
+        #main_bottom_right{
+            .right-minibox:nth-child(1){
+                background-color: transparent;
+                text-align: center;
+                color: white;
+                
+                img{
+                    padding-left: 0px;
+                }
+            }
+            .right-minibox:nth-child(2){
+
+            }
+        }
+    }
+
+
+    .wrapper {
+        position: relative;
+        display: grid;
+        grid-template-columns: 2fr 0.7fr 2fr 0.7fr 1.5fr;
+        grid-template-rows: 140px;
+        grid-gap: 0;
+        background-color: black;
+        color: black;
+        padding-right: 100px;
+    }
+    
+    .wrapper{
+        .box {
+            background-color: black;
+            text-align: center;
+            color: #fff;
+            border-radius: 5px;
+            padding: 50px;
+            font-size: 150%;
+            
+        }
+    }
+
+    .wrapper{
+        #b{
+            padding-top: 31px;
+            font-size: 57px;
+            text-align: left;
+            padding-left: 0px;
+            font-family: circe, sans-serif;
+            font-style: oblique;
+            font-weight: 100;
+        }
+    }
+
+
+    .wrapper{
+        #d{
+            padding-top: 29px;
+            font-size: 63px;
+            text-align: right;
+            font-family: circe, sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            padding-right: 0px;
+            
+        }
+    }
+
+    .wrapper{
+        #e{
+            padding-top: 35px;
+            font-size: 200%;
+            text-align: right;
+            // padding-right: 100px;
+            padding-left: 0px;
+            font-family: circe, sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            letter-spacing: 4px;
+        }
+    }
+    .wrapper{
+        #a{
+            padding-top: 29px;
+            font-size: 150%;
+            text-align: right;
+            padding-right: 5px;
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 300;
+        }
+    }
+
+    .section2{
+        width: 100%;
+        height: 720px;
+        background-color: cadetblue;
+    }
+}
